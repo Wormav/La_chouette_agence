@@ -39,19 +39,8 @@ justify-content: space-around;
   font-size: 25px;
 }
 
-#contactBlocForm{
-  display: flex;
-  justify-content: center;
-}
 
-.contactLabel{
-  border-radius: 5px;
-  margin-bottom: 1rem;
-}
 
-#iconSocial{
-  color: white!important;
-}
 
 
 #page-loading-blocs-notifaction {
