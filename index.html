@@ -1,13 +1,74 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
-</head>
-<body>
-    <a href="before/index.html">Before change</a>
-    <a href="after/index.html">After change</a>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projet</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        <span>La chouette agence</span>
+        <span>4ème projet Développeur web </span>
+      </h1>
+
+      <div class="card-container">
+        <div class="card-wrapper">
+          <div class="card">
+            <div class="card-front">
+              <p>Site sans optimisations</p>
+              <div class="card-lister">
+                <ul>
+                  <li>SEO peut performant</li>
+                  <li>Responsive non adapté aux versions mobile</li>
+                  <li>Images trop volumineuses et non adaptées</li>
+                  <li>Pratiques dangereuses comme des mots-clés cachés</li>
+                  <li>
+                    Accessibilité négligée: "ALT" non-descriptif , contraste non
+                    optimisé
+                  </li>
+                </ul>
+              </div>
+              <i class="arrow-icon fas fa-arrow-right"></i>
+            </div>
+            <div class="card-back">
+              <a href="before/index.html" class="btn">Je découvre le site</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-wrapper">
+          <div class="card">
+            <div class="card-front">
+              <p>Site avec optimisations</p>
+              <div class="card-lister">
+                <ul>
+                  <li>Optimisation du SEO</li>
+                  <li>Responsive plus logique</li>
+                  <li>Images plus en adéquation avec le contenu</li>
+                  <li>
+                    Suppression des pratiques dangereuses pour le référencement
+                  </li>
+                  <li>Accessibilité améliorée</li>
+                </ul>
+              </div>
+              <i class="arrow-icon fas fa-arrow-right"></i>
+            </div>
+            <div class="card-back">
+              <a href="after/index.html" class="btn">Je découvre le site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
